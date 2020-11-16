@@ -133,6 +133,7 @@ const App = () => {
               {!editOpen ? (
                 <>
                   <input
+                    className="input-checkbox"
                     type="checkbox"
                     checked={finished}
                     onChange={() => checkboxHandler(index)}

@@ -20,12 +20,14 @@ ul {
 }
 
 li {
+  display: flex;
   background: rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgb(51, 51, 51);
   color: white;
   padding: 5px;
   width: 100%;
+  align-items: baseline;
 }
 
 input {
@@ -37,10 +39,21 @@ input {
   margin: auto;
   margin-right: 10px;
 }
+.input-checkbox{
+  /* padding: none; */
+  margin: 0px;
+  
+}
+
 
 input:focus {
   outline: none;
   border: 2px solid rgb(255, 217, 0);
+}
+
+p {
+  display: inline;
+  font-weight: bold;
 }
 
 .edit-input {
@@ -48,9 +61,4 @@ input:focus {
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-
-p {
-  display: inline;
-  font-weight: bold;
 }
